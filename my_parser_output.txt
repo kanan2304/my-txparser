@@ -1,0 +1,41 @@
+------------------------------------------------------------------------
+TRANSACTION
+------------------------------------------------------------------------
+  txid          : 82260dec73577c37bfefaa16969e4012988e9833f5586f6b05b01bc8661ecb9a
+  wtxid         : f5239e968649efffc971a4e441e16e5c6ba749f28c93d42064ebdd085b8a4047
+  version       : 2
+  segwit        : True  (marker 0x00, flag 0x01)
+  locktime      : 0  (no timelock)
+  size          : 222 bytes
+  stripped size : 113 bytes (witness excluded)
+  weight        : 561 WU  (= 3 x 113 + 222)
+  vsize         : 141 vbytes
+------------------------------------------------------------------------
+INPUTS (1)
+------------------------------------------------------------------------
+  [0] byte offset 7
+      prev txid  : 4816e0594ae2680fca27c8c06272b7810c2028cf2f234ee4584d8de246785943
+      prev vout  : 0
+      scriptSig  : 0 bytes  
+      sequence   : 0xfffffffd  (RBF signalled (BIP-125))
+      witness    : 2 item(s)
+        [0] (71 B) 304402202a989d0d9c7a96bd1450eb278cf5035f1fda99a3eee4704323368438434a488002204895903811808cf09e823e9722f8a30b8bb133e75f7fcc572a960c172d2b1d4d01
+        [1] (33 B) 0393e1bf88eda86f16c8f685b2e41e29e489d3b46a6c3da7f48468bbcc9912595a
+------------------------------------------------------------------------
+OUTPUTS (2)
+------------------------------------------------------------------------
+  [0] byte offset 49
+      value      : 10.00000000 BTC  (1000000000 sat)
+      type       : p2wpkh
+      address    : bcrt1qt8s72sap4jznuhdw6xrz0qts6dspmlhmyrfu9e
+      script     : OP_0 <59e1e543a1ac853e5daed186278170d3601dfefb>
+  [1] byte offset 80
+      value      : 39.99990000 BTC  (3999990000 sat)
+      type       : p2wpkh
+      address    : bcrt1qxvyejp9sx3qnllcem70qssgk8u3znmplhp8zj3
+      script     : OP_0 <33099904b034413fff19df9e0841163f2229ec3f>
+------------------------------------------------------------------------
+  sum of outputs: 4999990000 sat
+  Fee: not computable from this transaction alone. fee = sum(inputs) - sum(outputs),
+  but input values live in the previous outputs being spent, which are not included.
+------------------------------------------------------------------------
